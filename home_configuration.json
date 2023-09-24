@@ -1,0 +1,37 @@
+{
+    "rooms": {
+        "kitchen": {
+            "devices": {
+                "machine": {
+                    "type": "appliance",
+                    "power_socket": "machine_socket"
+                },
+                "microwave": {
+                    "type": "appliance",
+                    "power_socket": "microwave_socket"
+                }
+            },
+            "power_sockets": {
+                "microwave_socket": {
+                    "state": "on"
+                },
+                "machine_socket": {
+                    "state": "on"
+                }
+            }
+        },
+        "living_room": {
+            "devices": {
+                "smart_tv": {
+                    "type": "appliance",
+                    "power_socket": "living_room_power_socket"
+                }
+            },
+            "power_sockets": {
+                "living_room_power_socket": {
+                    "state": "off"
+                }
+            }
+        }
+    }
+}
